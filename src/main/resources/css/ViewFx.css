@@ -1,0 +1,36 @@
+.root {
+    -fx-alignment: top-center;
+    -fx-padding: 20;
+    -fx-background-color: #e0e0e0;
+}
+
+Button {
+    -fx-background-color: #776e65;
+    -fx-text-fill: white;
+    -fx-font-size:30;
+    -fx-aglinment: center;
+    -fx-font-family: "System";
+    -fx-font-size: 30;
+    -fx-min-height: 50;
+    -fx-min-width: 225;  
+}
+
+GameBoard {
+    -fx-pref-width: 490px;
+    -fx-pref-height: 490px;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-background-color: #776e65;
+    -fx-padding: 10;
+}
+
+MessagesList {
+    -fx-pref-width: 400px;
+    -fx-pref-height: 490px;
+    -fx-font-family: System;
+    -fx-font-size: 20;
+    -fx-background-color: #776e65;    
+}
+
+
+
